@@ -1,13 +1,12 @@
-import React from 'react'
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
-const App = () => {
-  return (
-    <div>
-      <h1 align='center'>
-        Owedly App
-      </h1>
-    </div>
-  )
+function App() {
+    return (
+        <BrowserRouter>
+            <AppRoutes />
+        </BrowserRouter>
+    );
 }
 
-export default App
+export default App;
