@@ -6,7 +6,7 @@ import {
     Users,
     X,
 } from "lucide-react";
-import { Activity } from "lucide-react";
+// import { Activity } from "lucide-react";
 
 import { NavLink } from "react-router-dom";
 
@@ -38,11 +38,11 @@ function Sidebar({ isOpen, onClose }) {
             path: "/analytics",
             icon: BarChart3,
         },
-        {
-            label: "Activity",
-            path: "/activity",
-            icon: Activity,
-        },
+        // {
+        //     label: "Activity",
+        //     path: "/activity",
+        //     icon: Activity,
+        // },
     ];
 
     return (
